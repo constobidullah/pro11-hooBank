@@ -13,6 +13,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    margin: 0 0 40px 0;
 }
 
 #nav-title {
@@ -46,4 +47,21 @@ nav {
     color: #fff;
     font-size: 1.5rem;
     display: none;
+}
+
+#nav-link {
+    display: flex;
+    gap: 20px;
+    color: #fff;
+}
+
+#nav-link li {
+    list-style-type: none;
+}
+
+#nav-link li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
