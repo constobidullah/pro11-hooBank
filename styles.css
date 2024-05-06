@@ -65,3 +65,22 @@ nav {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
 }
+
+#discount {
+    background: linear-gradient(to right, #242426, 40%, #00040F);
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#discount p {
+    color: #fff;
+    font-family: "montserrat", sans-serif;
+    font-weight: 300;
+}
+
+#discount p span {
+    color: #9DA4A5;
+}
