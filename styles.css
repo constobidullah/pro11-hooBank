@@ -66,6 +66,12 @@ nav {
     font-weight: 400;
 }
 
+/* Header */
+#header-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 #discount {
     background: linear-gradient(to right, #242426, 40%, #00040F);
     height: 60px;
@@ -84,4 +90,46 @@ nav {
 
 #discount p span {
     color: #9DA4A5;
+}
+
+#method {
+    position: relative;
+}
+
+#method h1 {
+    color: #fff;
+    font-family: "montserrat", sans-serif;
+    font-size: 4.5rem;
+}
+
+#method h1 span {
+    color: #33BBCF;
+}
+
+#get-start {
+    cursor: pointer;
+    border: 3px solid #33BBCF;
+    border-radius: 50%;
+    padding: 30px;
+    align-items: center;
+    color: #33BBCF;
+
+    position: absolute;
+    top: 5%;
+    right: 0;
+
+    font-family: "montserrat", sans-serif;
+    /* font-weight: 300; */
+}
+
+#header-text{
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+#header-img img{
+    width: 100%;
+    height: 100%;
 }
