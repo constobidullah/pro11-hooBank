@@ -167,6 +167,7 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     gap: 90px;
     color: #fff;
+    margin: 0 0 100px 0;
 }
 
 #handle-money h2 {
@@ -202,6 +203,13 @@ nav {
     background-color: transparent;
     border: 2px solid #33BBCF;
     color: #fff;
+}
+
+/* Reward */
+#reward-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .reward-item {
