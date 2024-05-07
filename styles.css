@@ -244,6 +244,9 @@ nav {
 }
 
 /* Control */
+#control {
+    margin: 0 0 100px 0;
+}
 
 #control-heading {
     text-align: center;
@@ -408,7 +411,7 @@ nav {
     font-weight: 300;
 }
 
-#make-payment{
+#make-payment {
     width: 100%;
     background-color: #5CE1E6;
     padding: 7px 15px;
