@@ -242,3 +242,17 @@ nav {
     color: gray;
     opacity: .8;
 }
+
+/* Control */
+
+#control-heading {
+    text-align: center;
+    color: #fff;
+}
+
+#control-heading h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+}
