@@ -282,6 +282,21 @@ nav {
     justify-content: space-between;
 }
 
+#control-parent {
+    width: 400px;
+    background: linear-gradient(to bottom right, #2A687F, 70%, #151623);
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.control-head{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
 .control-detail-img-text,
 .control-price {
     display: flex;
