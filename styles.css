@@ -209,5 +209,14 @@ nav {
     background-color: #161521;
     border-radius: 10px;
     display: flex;
+    align-items: center;
     gap: 10px;
+}
+
+.reward-item img {
+    width: 60px;
+    height: 60px;
+    background-color: #16272E;
+    border-radius: 50%;
+    padding: 15px;
 }
