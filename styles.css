@@ -165,13 +165,14 @@ nav {
 #handle-reward {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 90px;
     color: #fff;
 }
 
 #handle-money h2 {
     color: #fff;
     font-family: "montserrat", sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
     margin: 0 0 30px 0;
 }
@@ -184,4 +185,21 @@ nav {
     line-height: 30px;
     opacity: .4;
     margin: 0 0 40px 0;
+}
+
+#handle-money button {
+    background-color: #33BBCF;
+    color: #00040F;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    transition: .8s;
+}
+
+#handle-money button:hover {
+    background-color: transparent;
+    border: 2px solid #33BBCF;
+    color: #fff;
 }
