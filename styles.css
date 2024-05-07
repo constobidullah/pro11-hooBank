@@ -287,6 +287,10 @@ nav {
     background: linear-gradient(to bottom right, #2A687F, 70%, #151623);
     padding: 20px 10px;
     border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .control-head{
