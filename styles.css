@@ -276,3 +276,36 @@ nav {
 #control-image img {
     cursor: pointer;
 }
+
+.control-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.control-detail-img-text,
+.control-price {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #fff;
+}
+
+.control-title h4,
+.control-title p,
+.control-price p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.control-title p {
+    font-weight: 300;
+}
+
+.control-price img {
+    width: 20px;
+}
+
+.control-price p {
+    font-weight: 400;
+}
