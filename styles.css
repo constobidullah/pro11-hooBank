@@ -175,3 +175,13 @@ nav {
     font-weight: 700;
     margin: 0 0 30px 0;
 }
+
+#handle-money p {
+    color: #fff;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 30px;
+    opacity: .4;
+    margin: 0 0 40px 0;
+}
