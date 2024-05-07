@@ -277,6 +277,14 @@ nav {
     cursor: pointer;
 }
 
+/* Control holder */
+
+#control-holder {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .control-item {
     display: flex;
     justify-content: space-between;
@@ -293,7 +301,7 @@ nav {
     gap: 15px;
 }
 
-.control-head{
+.control-head {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
@@ -309,7 +317,7 @@ nav {
     color: #fff;
 }
 
-.control-detail-img-text img{
+.control-detail-img-text img {
     width: 40px;
     height: 40px;
     background-color: #fff;
