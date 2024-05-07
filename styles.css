@@ -210,7 +210,7 @@ nav {
     border-radius: 10px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .reward-item img {
@@ -219,4 +219,10 @@ nav {
     background-color: #16272E;
     border-radius: 50%;
     padding: 15px;
+}
+
+.reward-text h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0 0 10px 0;
 }
