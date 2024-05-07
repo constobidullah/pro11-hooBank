@@ -256,3 +256,12 @@ nav {
     font-weight: 600;
     margin: 0 0 30px 0;
 }
+
+#control-heading p {
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 0 0 30px 0;
+}
