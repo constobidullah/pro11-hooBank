@@ -282,6 +282,7 @@ nav {
 #control-holder {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
 }
 
@@ -346,6 +347,10 @@ nav {
 
 /* control item 2 */
 
+#control-item2 {
+    width: 200px;
+}
+
 #control-thumbnail {
     display: flex;
     gap: 10px;
@@ -371,4 +376,44 @@ nav {
 #control-thumbnail-title p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
+}
+
+#control-payment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 30px 0;
+}
+
+#control-payment-title {
+    color: #fff;
+}
+
+#control-payment-title p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#control-payment-title p:nth-child(2) {
+    font-weight: 600;
+}
+
+#control-payment #change-payment {
+    border: 2px solid #33BBCF;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#make-payment{
+    width: 100%;
+    background-color: #5CE1E6;
+    padding: 7px 15px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
