@@ -141,7 +141,7 @@ nav {
 #company-detail-parent {
     display: flex;
     justify-content: space-between;
-    margin: 0 0 50px 0;
+    margin: 0 0 150px 0;
 }
 
 .company-detail h2 {
@@ -166,4 +166,12 @@ nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     color: #fff;
+}
+
+#handle-money h2 {
+    color: #fff;
+    font-family: "montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 30px 0;
 }
