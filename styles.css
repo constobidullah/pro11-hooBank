@@ -291,7 +291,7 @@ nav {
 }
 
 #control-parent {
-    width: 400px;
+    width: 350px;
     background: linear-gradient(to bottom right, #2A687F, 70%, #151623);
     padding: 20px 10px;
     border-radius: 10px;
@@ -342,4 +342,32 @@ nav {
 
 .control-price p {
     font-weight: 400;
+}
+
+/* control item 2 */
+
+#control-thumbnail {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #fff;
+}
+
+#control-thumbnail img {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#control-thumbnail-title h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+#control-thumbnail-title p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
 }
