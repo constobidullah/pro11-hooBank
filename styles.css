@@ -305,6 +305,13 @@ nav {
     color: #fff;
 }
 
+.control-detail-img-text img{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
 .control-title h4,
 .control-title p,
 .control-price p {
