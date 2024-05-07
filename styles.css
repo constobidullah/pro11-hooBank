@@ -141,6 +141,7 @@ nav {
 #company-detail-parent {
     display: flex;
     justify-content: space-between;
+    margin: 0 0 50px 0;
 }
 
 .company-detail h2 {
