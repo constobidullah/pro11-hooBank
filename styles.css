@@ -427,7 +427,7 @@ nav {
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    margin: 0 0 40px 0;
+    margin: 0 0 150px 0;
 }
 
 #better-text h3 {
@@ -459,7 +459,8 @@ nav {
     width: 100%;
     background-image: url('./image/round-circle.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
     display: flex;
     gap: 30px;
     position: relative;
@@ -492,7 +493,9 @@ nav {
 }
 
 #analysis {
+    cursor: pointer;
     width: 60%;
+    /* height: 250px; */
     text-align: center;
     background-color: #14101D;
     border-radius: 5px;
@@ -551,10 +554,44 @@ nav {
 }
 
 #month-list a {
-    padding: 3px;
+    padding: 5px 7px;
     text-decoration: none;
     border-radius: 4px;
     background: linear-gradient(to right, #00EEB3, #00DDEB);
     color: gray;
     font-size: .8rem;
+}
+
+#pay-method{
+    background-color: #14101D;
+    position: absolute;
+    top: 85%;
+    right: 30%;
+    bottom: 0;
+    left: 20%;
+
+    padding: 15px;
+}
+
+#pay{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 20px 0;
+}
+
+#pay p{
+    font-weight: 600;
+}
+
+#pay-image{
+    display: flex;
+    justify-content: space-between;
+}
+
+#pay-image img{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
 }
