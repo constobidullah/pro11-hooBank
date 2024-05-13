@@ -482,3 +482,11 @@ nav {
     font-size: .8rem;
     font-weight: 600;
 }
+
+#month{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
