@@ -484,7 +484,11 @@ nav {
 }
 
 #analysis {
-    background-color: #141414;
+    text-align: center;
+    background-color: #14101D;
+    border-radius: 5px;
+    box-shadow: 0 0 300px 0 #14101D;
+    padding: 20px 10px;
 }
 
 #month {
@@ -501,15 +505,30 @@ nav {
     color: #fff;
     display: flex;
     justify-content: space-between;
+    margin: 0 0 10px 0;
 }
 
 #income {
     color: #02C58B;
 }
 
-#income p:nth-child(2){
+#income p:nth-child(2) {
     margin: 5px 0 0 0;
     font-size: .6rem;
     font-weight: 600;
 }
 
+#expense {
+    color: #00D2E0;
+}
+
+#expense p:nth-child(2) {
+    margin: 5px 0 0 0;
+    font-size: .6rem;
+    font-weight: 600;
+}
+
+#analysis-img img{
+    width: 100%;
+    margin:  0 0 20px 0;
+}
