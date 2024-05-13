@@ -427,6 +427,7 @@ nav {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    margin: 0 0 40px 0;
 }
 
 #better-text h3{
@@ -452,4 +453,32 @@ nav {
     border-radius: 5px;
     background-color: #33BBCF;
     padding: 10px 15px;
+}
+
+#better-analysis{
+    width: 50%;
+    background-image: url('./image/round-circle.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#scan-credit{
+    text-align: center;
+    background-color: #14101D;
+    border-radius: 5px;
+    box-shadow: 0 0 300px 0 #14101D;
+    padding: 20px 10px;
+}
+
+#scan-credit h4{
+    color: #fff;
+    font-family: 'montserrat',sans-serif;
+    margin: 10px 0;
+}
+
+#scan-credit p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+    font-weight: 600;
 }
