@@ -597,6 +597,9 @@ nav {
 }
 
 /* Review */
+#review {
+    margin: 0 0 150px 0;
+}
 
 #review-title {
     color: #fff;
@@ -627,7 +630,7 @@ nav {
 .review-item {
     width: 45%;
     padding: 70px 50px;
-    background: linear-gradient(to bottom right, #272a3a, #14111E);
+    background: linear-gradient(to bottom right, #202331, #14111E);
     border-radius: 15px;
 }
 
