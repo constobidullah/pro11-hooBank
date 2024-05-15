@@ -562,7 +562,7 @@ nav {
     font-size: .8rem;
 }
 
-#pay-method{
+#pay-method {
     background-color: #14101D;
     position: absolute;
     top: 85%;
@@ -573,7 +573,7 @@ nav {
     padding: 15px;
 }
 
-#pay{
+#pay {
     display: flex;
     justify-content: space-between;
     color: #fff;
@@ -581,17 +581,36 @@ nav {
     margin: 0 0 20px 0;
 }
 
-#pay p{
+#pay p {
     font-weight: 600;
 }
 
-#pay-image{
+#pay-image {
     display: flex;
     justify-content: space-between;
 }
 
-#pay-image img{
+#pay-image img {
     padding: 10px;
     border-radius: 10px;
     background-color: #fff;
+}
+
+/* Review */
+
+#review-title {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 60px 0;
+}
+
+#review-title h3 {
+    font-size: 3rem;
+}
+
+#review-title p {
+    opacity: .7;
 }
