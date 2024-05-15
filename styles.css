@@ -617,14 +617,17 @@ nav {
 
 /* review item */
 #review-parent {
+    margin: 0 100px;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 .review-item {
-    padding: 50px 30px;
-    background: linear-gradient(to bottom right, #191C26, #14111E);
+    width: 45%;
+    padding: 70px 50px;
+    background: linear-gradient(to bottom right, #272a3a, #14111E);
     border-radius: 15px;
 }
 
@@ -636,7 +639,8 @@ nav {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     margin: 0 0 30px 0;
-
+    font-size: 1.1rem;
+    line-height: 1.7rem;
 }
 
 .review-person {
@@ -646,8 +650,8 @@ nav {
 }
 
 .review-person img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
 }
 
@@ -658,8 +662,11 @@ nav {
 
 .review-name-title h4 {
     font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0 0 5px 0;
 }
 
 .review-name-title p {
     opacity: .7;
+    font-size: .9rem;
 }
