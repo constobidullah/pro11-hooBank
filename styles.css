@@ -692,16 +692,40 @@ nav {
     border-radius: 10px;
     margin: 0 120px;
     text-align: center;
-    position: relative;
+    /* position: relative; */
     font-family: 'Montserrat', sans-serif;
     color: #fff;
     background: linear-gradient(to top left, #15121E, #191C26);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#service h3 {
-    font-size: 2.5rem;
-}
-
-#service-text{
+#service-text {
     text-align: left;
+}
+
+#service-text h3 {
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
+}
+
+#service-text p {
+    font-size: 1.1rem;
+}
+
+#service button {
+    cursor: pointer;
+    margin: 0 20px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    background-color: #5CE1E6;
+    padding: 10px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#service button::before{
+    content: "Started";
 }
