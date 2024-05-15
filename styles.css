@@ -616,6 +616,12 @@ nav {
 }
 
 /* review item */
+#review-parent {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
 .review-item {
     padding: 50px 30px;
     background: linear-gradient(to bottom right, #191C26, #14111E);
