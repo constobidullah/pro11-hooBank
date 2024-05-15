@@ -687,3 +687,21 @@ nav {
 }
 
 /* Service */
+#service {
+    padding: 40px;
+    border-radius: 10px;
+    margin: 0 120px;
+    text-align: center;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background: linear-gradient(to top left, #15121E, #191C26);
+}
+
+#service h3 {
+    font-size: 2.5rem;
+}
+
+#service-text{
+    text-align: left;
+}
