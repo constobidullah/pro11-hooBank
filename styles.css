@@ -673,3 +673,15 @@ nav {
     opacity: .7;
     font-size: .9rem;
 }
+
+/* Company */
+#company {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 100px 0;
+}
+
+#company img {
+    cursor: pointer;
+}
