@@ -627,7 +627,7 @@ nav {
 }
 .review-person{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
 }
 .review-person img {
@@ -638,4 +638,13 @@ nav {
 
 .review-name-title{
     color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.review-name-title h4{
+    font-size: 1.2rem;
+}
+
+.review-name-title p{
+    opacity: .7;
 }
