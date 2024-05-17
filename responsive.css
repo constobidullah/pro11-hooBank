@@ -128,5 +128,79 @@
         cursor: pointer;
     }
 
+    /* Control holder */
+
+    #control-holder {
+        flex-direction: column;
+        gap: 2.5em;
+    }
+
+    #control-parent {
+        width: 100%;
+    }
+
+    .control-head {
+        margin: 0 0 5px 0;
+    }
+
+    .control-detail-img-text,
+    .control-price {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: #fff;
+    }
+
+    .control-detail-img-text img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .control-title h4,
+    .control-title p,
+    .control-price p {
+        font-size: 1rem;
+    }
+
+    .control-price img {
+        width: 10px;
+    }
+
+    /* control item 2 */
+
+    #control-item2 {
+        width: 100%;
+    }
+
+    #control-thumbnail {
+        padding: 0 10px;
+        margin: 0 0 20px 0;
+    }
+
+    #control-thumbnail img {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+    }
+
+    #control-thumbnail-title h5 {
+        font-size: 1.1rem;
+    }
+
+    #control-payment {
+        padding: 0 10px;
+    }
+
+    #control-payment #change-payment {
+        padding: 5px 10px;
+    }
+
+
+
+
+
+
+
+
 
 }
