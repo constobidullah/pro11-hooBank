@@ -804,3 +804,23 @@ nav {
     border-bottom: 1px solid gray;
     margin: 0 0 20px 0;
 }
+
+/* Footer */
+
+#footer-text {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    opacity: .8;
+}
+
+#footer-text p {
+    line-height: 3em;
+}
+
+#footer-text p span {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: transparent;
+    background: linear-gradient(to top right, #00f7ff, #fff);
+    -webkit-background-clip: text;
+}
