@@ -731,6 +731,16 @@ nav {
 }
 
 /* Contact */
+#contact-link {
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bank {
+    width: 25%;
+}
+
 #bank-logo-name {
     display: flex;
     align-items: center;
@@ -754,10 +764,31 @@ nav {
     color: #00D2E0;
 }
 
-#bank-text{
+#bank-text {
     color: #fff;
     opacity: .7;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     /* font-weight: 600; */
+}
+
+.links {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.links h4 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 0 0 25px 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+    opacity: .7;
+    font-family: 'Montserrat', sans-serif;
 }
