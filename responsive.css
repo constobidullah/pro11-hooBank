@@ -198,9 +198,73 @@
     /* Better card */
     #better-card {
         flex-direction: column;
-        gap: 150px;
-        margin: 0 0 320px 0;
+        flex-wrap: wrap;
+        gap: 5em;
+        margin: 0 0 55em 0;
         position: relative;
+    }
+
+    #better-text h3 {
+        font-size: 1.5rem;
+        margin: 0 0 20px 0;
+    }
+
+    #better-text p {
+        font-size: 1rem;
+        margin: 0 0 20px 0;
+    }
+
+    #better-text button {
+        font-size: 1rem;
+        padding: 6px 10px;
+    }
+
+    /* not working */
+    #better-analysis {
+        width: 100%;
+        background-image: url('./image/round-circle.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        display: flex;
+        gap: 5em;
+        flex-direction: column;
+        position: relative;
+    }
+
+    /* not working */
+
+    #scan-credit {
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+
+    #scan-credit p {
+        font-size: .6rem;
+    }
+
+    #analysis {
+        width: 100%;
+        position: absolute;
+        top: 280px;
+    }
+
+    #month {
+        margin: 0 0 15px 0;
+    }
+
+    #month-list a {
+        font-size: .5rem;
+    }
+
+    #pay-method {
+        width: 100%;
+        top: 680px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 15px;
     }
 
     /* Review */
