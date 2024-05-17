@@ -46,16 +46,64 @@
     #company-detail-parent {
         justify-content: center;
         flex-direction: column;
+        gap: 1.5em;
         margin: 0 0 50px 0;
+        text-align: center;
     }
 
     .company-detail h2 {
         font-size: 1.4rem;
     }
-    
+
     .company-detail p {
         font-size: 1.1rem;
     }
+
+    /* Handle reward */
+    #handle-reward {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 0 50px 0;
+    }
+
+    #handle-money h2 {
+        font-size: 1.5rem;
+        margin: 0 0 15px 0;
+    }
+
+    #handle-money p {
+        font-size: 1rem;
+        line-height: 2em;
+        margin: 0 0 20px 0;
+    }
+
+    #handle-money button {
+        padding: 5px 10px;
+        font-size: 1rem;
+    }
+
+    /* Reward */
+    #reward-parent {
+        gap: 1.5em;
+    }
+
+    .reward-item {
+        padding: 15px 10px;
+    }
+
+    .reward-item img {
+        width: 40px;
+        height: 40px;
+        background-color: #16272E;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+    .reward-text p {
+        font-size: .9rem;
+        color: #fff;
+        opacity: .5;
+    }
+
 
 
 }
