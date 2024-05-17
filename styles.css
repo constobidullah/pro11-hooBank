@@ -850,11 +850,11 @@ footer {
     color: #fff;
 }
 
-#footer-item a i{
+#footer-item a i {
     font-size: 1.5rem;
     transition: .3s;
 }
 
-#footer-item a i:hover{
+#footer-item a i:hover {
     color: #00D2E0;
 }
