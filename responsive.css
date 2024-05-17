@@ -293,8 +293,58 @@
         padding: 5px 15px;
     }
 
+    /* Contact */
+    #contact-link {
+        margin: 0 0 50px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2.5em;
+    }
 
+    #bank {
+        width: 100%;
+    }
 
+    #bank-logo-name img {
+        width: 40px;
+    }
+
+    #bank-logo-name a {
+        font-size: 1.5rem;
+    }
+
+    #bank-text {
+        font-size: .9rem;
+    }
+
+    .links {
+        gap: 1.5em;
+    }
+
+    .links h4 {
+        font-size: 1.2rem;
+    }
+
+    .links a {
+        font-size: 1rem;
+    }
+
+    /* Footer */
+    footer {
+        margin: 0 0 10px 0;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    #footer-text p span {
+        font-size: 1.2rem;
+    }
+
+    #footer-item {
+        gap: 2em;
+    }
 
 
 
