@@ -730,3 +730,34 @@ nav {
     content: "Started";
 }
 
+/* Contact */
+#bank-logo-name {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin: 0 0 20px 0;
+}
+
+#bank-logo-name img {
+    width: 80px;
+}
+
+#bank-logo-name a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#bank-logo-name a span {
+    color: #00D2E0;
+}
+
+#bank-text{
+    color: #fff;
+    opacity: .7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    /* font-weight: 600; */
+}
