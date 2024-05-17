@@ -7,14 +7,22 @@
 body {
     background-color: #00040F;
     margin: 20px;
+    /* position: relative; */
 }
 
 nav {
+    height: 70px;
+    background-color: #00040F;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
     margin: 0 0 40px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 100%;
 }
 
 #nav-title {
@@ -71,7 +79,7 @@ nav {
 #header-parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 0 0 30px 0;
+    margin: 100px 0;
 }
 
 #discount {
