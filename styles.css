@@ -806,6 +806,12 @@ nav {
 }
 
 /* Footer */
+footer {
+    margin: 0 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 #footer-text {
     color: #fff;
@@ -823,4 +829,24 @@ nav {
     color: transparent;
     background: linear-gradient(to top right, #00f7ff, #fff);
     -webkit-background-clip: text;
+}
+
+#footer-item {
+    display: flex;
+    gap: 1em;
+    transition: all .3;
+}
+
+#footer-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer-item a i{
+    font-size: 1.5rem;
+    transition: .3s;
+}
+
+#footer-item a i:hover{
+    color: #00D2E0;
 }
