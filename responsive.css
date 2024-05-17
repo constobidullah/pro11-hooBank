@@ -1,9 +1,45 @@
 @media screen and (max-width: 600px) and (min-width: 360px) {
     body {
         overflow-x: hidden;
+        margin: 0 10px;
     }
 
-    
+    nav {
+        display: none;
+    }
 
+    /* Header */
+    #header-parent {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 9em;
+        margin: 100px 0;
+    }
+
+    #discount {
+        width: 100%;
+    }
+
+    #method h1 {
+        font-size: 2.5rem;
+        margin: 0 0 20px 0;
+    }
+
+    #method h1 span {
+        color: transparent;
+        background: linear-gradient(to bottom, #fff, 55%, #33BBCF);
+        -webkit-background-clip: text;
+    }
+
+    #get-start {
+        margin: 40px 0 0 0;
+        position: absolute;
+        top: 100%;
+        right: 40%;
+    }
+
+    #header-text {
+        font-size: 1.1rem;
+    }
 
 }
