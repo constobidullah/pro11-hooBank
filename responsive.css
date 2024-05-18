@@ -75,7 +75,23 @@
         font-size: 1.1rem;
     }
 
-    
+    /* Company detail */
+
+    #company-detail-parent {
+        justify-content: center;
+        flex-direction: column;
+        gap: 2.5em;
+        margin: 0 0 70px 0;
+        text-align: center;
+    }
+
+    .company-detail h2 {
+        font-size: 1.4rem;
+    }
+
+    .company-detail p {
+        font-size: 1.1rem;
+    }
 
 
 
