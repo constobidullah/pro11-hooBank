@@ -138,8 +138,314 @@
         opacity: .5;
     }
 
+    /* Control */
+    #control {
+        margin: 0 0 50px 0;
+    }
 
-    
+    #control-heading h3 {
+        font-size: 1.5rem;
+    }
+
+    #control-heading p {
+        font-size: 1rem;
+    }
+
+    #control-image {
+        display: flex;
+        justify-content: center;
+        gap: 1.5em;
+    }
+
+    #control-image img {
+        width: 100%;
+        cursor: pointer;
+    }
+
+    /* Control holder */
+
+    #control-holder {
+        flex-direction: column;
+        gap: 2.5em;
+    }
+
+    #control-parent {
+        width: 100%;
+    }
+
+    .control-head {
+        margin: 0 0 5px 0;
+    }
+
+    .control-detail-img-text,
+    .control-price {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: #fff;
+    }
+
+    .control-detail-img-text img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .control-title h4,
+    .control-title p,
+    .control-price p {
+        font-size: 1rem;
+    }
+
+    .control-price img {
+        width: 10px;
+    }
+
+    /* control item 2 */
+
+    #control-item2 {
+        width: 100%;
+    }
+
+    #control-thumbnail {
+        padding: 0 10px;
+        margin: 0 0 20px 0;
+    }
+
+    #control-thumbnail img {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+    }
+
+    #control-thumbnail-title h5 {
+        font-size: 1.1rem;
+    }
+
+    #control-payment {
+        padding: 0 10px;
+    }
+
+    #control-payment #change-payment {
+        padding: 5px 10px;
+    }
+
+    /* Better card */
+    #better-card {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 5em;
+        margin: 0 0 55em 0;
+        position: relative;
+    }
+
+    #better-text h3 {
+        font-size: 1.5rem;
+        margin: 0 0 20px 0;
+    }
+
+    #better-text p {
+        font-size: 1rem;
+        margin: 0 0 20px 0;
+    }
+
+    #better-text button {
+        font-size: 1rem;
+        padding: 6px 10px;
+    }
+
+    /* not working */
+    #better-analysis {
+        width: 100%;
+        background-image: url('./image/round-circle.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        display: flex;
+        gap: 5em;
+        flex-direction: column;
+        position: relative;
+    }
+
+    /* not working */
+
+    #scan-credit {
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+
+    #scan-credit p {
+        font-size: .6rem;
+    }
+
+    #analysis {
+        width: 100%;
+        position: absolute;
+        top: 280px;
+    }
+
+    #month {
+        margin: 0 0 15px 0;
+    }
+
+    #month-list a {
+        font-size: .5rem;
+    }
+
+    #pay-method {
+        width: 100%;
+        top: 680px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 15px;
+    }
+
+    /* Review */
+    #review {
+        margin: 0 0 150px 0;
+    }
+
+    #review-title {
+        flex-direction: column;
+        gap: 1.5em;
+        margin: 0 0 30px 0;
+    }
+
+    #review-title h3 {
+        font-size: 1.5rem;
+    }
+
+    /* review item */
+    #review-parent {
+        margin: 0;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .review-item {
+        width: 100%;
+        padding: 35px 25px;
+    }
+
+    .quotes {
+        margin: 0 0 20px 0;
+    }
+
+    .review-text p {
+        margin: 0 0 20px 0;
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    .review-person {
+        gap: 10px;
+    }
+
+    .review-person img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    .review-name-title h4 {
+        font-size: 1rem;
+    }
+
+    .review-name-title p {
+        font-size: .6rem;
+    }
+
+    /* Company */
+    #company {
+        flex-direction: column;
+        gap: 3.5em;
+        margin: 0 0 70px 0;
+    }
+
+    #company img {
+        width: 100%;
+        cursor: pointer;
+    }
+
+    /* Service */
+    #service {
+        padding: 20px;
+        border-radius: 10px;
+        margin: 0 0 80px;
+        gap: 1.5em;
+        flex-direction: column;
+    }
+
+
+    #service-text h3 {
+        font-size: 1.5rem;
+        margin: 0 0 10px 0;
+    }
+
+    #service-text p {
+        font-size: .9rem;
+    }
+
+    #service button {
+        padding: 5px 15px;
+    }
+
+    /* Contact */
+    #contact-link {
+        margin: 0 0 50px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2.5em;
+    }
+
+    #bank {
+        width: 100%;
+    }
+
+    #bank-logo-name img {
+        width: 40px;
+    }
+
+    #bank-logo-name a {
+        font-size: 1.5rem;
+    }
+
+    #bank-text {
+        font-size: .9rem;
+    }
+
+    .links {
+        gap: 1.5em;
+    }
+
+    .links h4 {
+        font-size: 1.2rem;
+    }
+
+    .links a {
+        font-size: 1rem;
+    }
+
+    /* Footer */
+    footer {
+        margin: 0 0 10px 0;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    #footer-text p span {
+        font-size: 1.2rem;
+    }
+
+    #footer-item {
+        gap: 2em;
+    }
+
+
+
 
 
 
