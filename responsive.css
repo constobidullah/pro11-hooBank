@@ -47,6 +47,36 @@
         left: 0;
     }
 
+    /* Header */
+    #header-parent {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 9em;
+        margin: 100px 0;
+    }
+
+    #discount {
+        width: 100%;
+    }
+
+    #method h1 {
+        font-size: 2rem;
+        margin: 0 0 20px 0;
+    }
+
+    #get-start {
+        margin: 40px 0 0 0;
+        position: absolute;
+        top: 100%;
+        right: 40%;
+    }
+
+    #header-text {
+        font-size: 1.1rem;
+    }
+
+    
+
 
 
 
